@@ -1,0 +1,86 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: rgb(219, 125, 172);
+    display: flex
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, helvetica, sans-serif;
+}
+/* contenedor de la paguina */
+
+.contenedor {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 30px;
+     padding: 20px;
+}
+
+/* tarjeta de presentacion */
+.tarjeta {
+    background-color:rgb(163, 112, 210);
+    width: 250px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 15px;
+} 
+img {
+    width: 150px;
+    align-self: center;
+    border-radius: 76px;
+}
+
+ h1 {
+   font-size: 20px;
+   text-align: center;
+   color:black;
+}
+
+p {
+  font-size: 14px;
+  text-align: justify;
+  color:beige;
+  line-height: 1.5;
+}
+
+ a {
+    color:rgb(131, 5, 248);
+    text-align: ringht;
+    text-decoration: nome;
+    transition: color 0.3s;
+
+ }
+
+ a:hover {
+    color:aquamarine;
+ }
+ /* boton "ver mas" */
+ .btn-ver- mas {
+    diplay: inline-block
+    padding: 15px 35px;
+     
+    background: linear-gradient(135deg, #0593a2, #00d9ff );
+    color:aquamarine;
+
+    text-decoration: nome;
+
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 4px 15px rgb(131, 5, 248)
+}
+
+.btn-ver-mas:hover {
+    transform: translaleY(-3px);
+    box-shadow: 0 8px 25px rgb(131, 5, 248)
+    background: linear-gradient(135deg, # 00d9ff, #0593a2);
+}
